@@ -119,6 +119,8 @@ section{
 
 .btn-box .btn {
     position: relative;
+
+    /* inline flex */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,7 +236,7 @@ section{
 }
 
 
-.sobre-min {
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,7 +270,7 @@ span {
     color: var(--main-color)
 }
 
-.sobremim-img{
+.about-img{
     position: relative;
     width: 25rem;
     height: 25rem;
@@ -278,21 +280,21 @@ span {
     align-items: center;
 }
 
-.sobremim-img img {
+.about-img img {
     width: 90%;
     border-radius: 50%;
     border: .3rem solid var(--main-color);
 }
 
-.sobremim-content{
+.about-content{
     text-align: center;
 }
 
-.sobremim-content h3 {
+.about-content h3 {
     font-size: 2.6rem;
 }
 
-.sobremim-content p {
+.about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem ;
 }
